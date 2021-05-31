@@ -13,7 +13,11 @@ module.exports = {
         '120px': '120px'
       },
       width: {
-        '360px': '360px'
+        '260px': '260px',
+        'avatar': '40px'
+      },
+      height: {
+        'avatar': '40px',
       }
     },
   },
