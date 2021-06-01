@@ -22,27 +22,26 @@ export default function Home() {
               <button className="rounded px-2 py-2 font-bold border-red-600 border-2 text-red-600 w-full">Log in</button>
             </div>
             <div className="flex-grow w-full">
-              <div className="flex-grow w-full">
-                <div className="w-full h-12 flex flex-row items-center">
-                  <p className="text-gray-500">Suggest accounts</p>
-                </div>
-                <div className="w-full">
-                  {
-                    Array.from({ length: 10 }).map((item, index) => {
-                      return (
-                        <div key={index} className="flex flex-row items-center h-16 mb-1 hover:bg-gray-100 cursor-pointer">
-                          <div className="h-avatar w-avatar border border-solid border-white rounded-full relative overflow-hidden">
-                            <img className="h-full w-full" src="https://i.pinimg.com/originals/eb/b0/2a/ebb02aedec9bc74f65e38311c7e14d34.png" />
-                          </div>
-                          <div className="ml-4">
-                            <div>kienreview90</div>
-                            <div>Kien Review</div>
-                          </div>
+
+              <div className="w-full h-12 flex flex-row items-center">
+                <p className="text-gray-500">Suggest accounts</p>
+              </div>
+              <div className="w-full">
+                {
+                  Array.from({ length: 10 }).map((item, index) => {
+                    return (
+                      <div key={index} className="flex flex-row items-center h-16 mb-1 hover:bg-gray-100 cursor-pointer">
+                        <div className="h-avatar w-avatar border border-solid border-white rounded-full relative overflow-hidden">
+                          <img className="h-full w-full" src="https://i.pinimg.com/originals/eb/b0/2a/ebb02aedec9bc74f65e38311c7e14d34.png" />
                         </div>
-                      )
-                    })
-                  }
-                </div>
+                        <div className="ml-4">
+                          <div>kienreview90</div>
+                          <div>Kien Review</div>
+                        </div>
+                      </div>
+                    )
+                  })
+                }
               </div>
             </div>
           </div>
