@@ -18,6 +18,14 @@ module.exports = {
       },
       height: {
         'avatar': '40px',
+        'header': '80px'
+      },
+      margin: {
+        'main-container': '80px 0px 0px 0px'
+      },
+      inset: {
+        sidebar: '80px',
+        bottom: '0'
       }
     },
   },
